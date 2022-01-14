@@ -1,0 +1,144 @@
+Added Logo
+Created Login and sign up bits, need to be modified and better formatted.
+Added slider in homepage, modifications are needed. 
+Changed few colors of website.
+Need to modify contact us page.
+
+05/12/2020
+Created Database.
+Added Login, Login History, Customers Tables.
+Fix your logo.
+
+06/12/2020
+Created dataset, added queries in login and login History.
+Worked on the login, but not working in the master fuckin page.
+
+10/12/2020
+Fixed Logo
+Created a Mastepage fro when Client has logged in
+Fixed the login with sessions
+Need to fix the signup though.
+Added Products Table
+Added Your AccountLoggedIn page
+Working with Sessions right now in the logged in version.
+
+11/12/2020
+Added Insert new user query in the login table
+Fixed Signup and coded it for the homepage (NEED TO COPY PASTE IT IN ALL OF THE PAGES)
+Added Required field validators in the signup (Need to do it in the login.) (DONE IN 12/12/2020)
+Added a special code in the webconfig page in order to make them work.
+
+13/12/2020
+Added Different categories in the navigation for the products
+Mostly finished the products categories page.
+Added in the product table the product grade and All age entity.
+Added the login in the products category page.
+
+14/12/2020
+Added Multiviews in the geography category page.
+Added datalist in geography page
+Added View and created view description where user can have more info on each specific product.
+Added button that calculates the price.
+Still need to make it more beautiful.
+
+15/12/2020
+Tweaked the products details bit making it more beautiful.
+Added Orders and OrderDetails Table in the database.
+Created a public class of the Basket Items.
+Added the code behind to add products in the basket.
+Still need to create a basket page...
+
+26/12/2020
+Centered the product details in the middle.
+Created Basket page.
+Added image in the basket class to store the name.
+Added all the Multiview and views of the basket page.
+Added the GridView with all the boundfields to call all the items from the basket.
+Modified the update item.
+Added the code behind for all until update items.
+
+27/12/2020 03:00
+Added Card Info view and finished with all the code behind in the basket pay page.
+
+27/12/2020 22:00
+Finished the Basket/Pay page, created Billing Info, Card Info, Country list tables in the database.
+Added queries to add all info in the database.
+Need to work on login and creating new customer table when user signups.
+
+28/12/2020 01:39
+Fixed issue where keeps showing validations in basket and georgraphy pages.
+
+28/12/2020 02:58
+Added a query that searches for existing email addresses in the database making sure not to create multiple users.
+Added the login/signup code in the basket page, Geography page and Home.
+
+29/12/2020
+Added How to Login page.
+Added extra view that checks if user has logged in before he could go ahead and pay.
+Added Admin MasterPage and Analytics page.
+
+
+29/12/2020 18:00
+Added Login button in view that checks if user has logged in or not. Help button will be transitioned to a FAQ in the footer.
+Added pages in the customerLoggedIn bit. Added Geography, Products, Basket loggedIn pages.
+
+30/12/2020 02:08
+Fixed Adding customerID to all relevant tables when adding details to the database from the basket.
+Complete pages for now:
+-Geography
+-Products
+-Basket
+-Login modal (Login and signup)
+-The logged in versions of the mentioned pages (3 pages)
+
+30/12/2020 03:44
+Created a History and History LoggedIn pages.
+Added images in products for Geography and History.
+Created a txt file with the reference of where were the images taken from. (txt file present in Products images folder)
+Complete pages for now:
+-Geography
+-Products
+-Basket
+-History
+-Login modal (Login and signup)
+-The logged in versions of the mentioned pages (4 pages)
+
+30/12/2020
+Modified the Your Account page. Added UpdateDetails Page.
+Added queries to update customer details and getting customerID.
+
+31/12/2020 03:36
+Created ViewOrderHistory page. Added rf validators in the updateDetails page.
+Now just need to add all product images and the rest of the pages.
+Start working on admin and footer.
+
+02/01/2021 04:11
+Modified viewOrderHistory page to make it more appealing.
+Created and finished ContactUS page for both user and Client logged in side.
+Added a ContactUS table in he database that stores all the inquiries.
+
+03/01/2021 
+Finished the Homepage and the logged in version.
+Finished About Us page and the logged in version.
+Modified the footer.
+
+04/01/2021 02:40
+Changed "Region" to "Country" in the customers table in the database
+Created Admin Login page.
+Fixed Admin master page.
+Created Admin Homepage.
+Created Customer Admin page where staff can add update or delete customers.
+Created Products Admin page where staff can add updare or delete products.
+Added queries in the database for both customers and products tables.
+
+04/01/2021 23:00
+Finished admin Analytics page.
+Finished your account Admin page.
+Added update staff details in admin account page.
+Added log page and log table in the database.
+
+05/01/2021
+Added email confirmation of the order.
+Created all products page.
+Added search function in the products page, geography and history.
+More or less completed website.

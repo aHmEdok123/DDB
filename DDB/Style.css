@@ -1,0 +1,245 @@
+﻿.modal-content1 {
+    background-color: white;
+    margin: 2% auto 2% auto; /* 5% from the top, 15% from the bottom and centered */
+    width: 40%; /* Could be more or less, depending on screen size */
+    padding: 30px;
+    border-style: double;
+}
+
+legend.form {
+    font-family: palatino;
+    font-size: 18pt;
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+
+
+
+.responsive {
+    width: 100%;
+}
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+    margin-top: 10px;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    /*
+        width: 200px;
+    height: 200px;
+        display: block;
+    */
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+    border-radius: 50%;
+}
+
+.container1 {
+    padding-left: 20px;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-right: 20px;
+}
+
+.container123 {
+    padding-bottom: 5px;
+    padding-left: 20px;
+    width: 100%;
+    padding-right: 20px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto !important; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: white;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 100%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: red;
+        cursor: pointer;
+    }
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 60%;
+    }
+}
+
+
+
+
+
+.Exit {
+    background-color: #262626;
+    color: white;
+    padding: 14px 20px;
+    margin: 2px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.main_heading::before {
+    content: "";
+    display: block;
+    margin: 20px auto 0;
+    width: 60%;
+    height: 5px;
+    background: #17a5e9;
+}
+
+.main_heading1 ::before {
+    content: "";
+    display: block;
+    margin: 20px auto 0;
+    width: 60%;
+    height: 0px;
+    background: #17a5e9;
+}
+
+.main_heading1::after {
+    content: "";
+    display: block;
+    width: 40%;
+    height: 5px;
+    background: #17a5e9;
+}
+
+.main_heading1 {
+    position: relative;
+    margin-bottom: 65px;
+}
+
+
+
+/*.Center {
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+}*/
+
+.Under {
+    text-decoration: underline !important;
+}
+
+.Font {
+    font-family: sans !important
+}
+
+.Center{
+    text-align: center;
+}
+
+.Space{
+    padding-left: 30px;
+}
+
+
+.LoginCss{
+    margin-left: 20px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #039ee3; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 20px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 25px; /* Increase font size */
+}
+
+    #myBtn:hover {
+        background-color: #555; /* Add a dark-grey background on hover */
+    }
+
